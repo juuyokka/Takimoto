@@ -19,10 +19,6 @@ Oh, not much, only the [BEST GIRL IN THE UNIVERSE](http://lmgtfy.com/?q=hifumi+t
 Nothing as of right now (if you don't count being best girl), but I'm working on adding funtionality to it whenever I have time to!
 >"I'll do my darnedest again today!" - Aoba Suzukaze
 
-## How do I build my own Takimoto™?
-
-I don't have a guide for building Takimoto yet, but if you are so inclined to build my bot, you can take a stab at it.
-
 ## Wow, Takimoto™ sure looks awesome! How can I add it to my server?
 
 Well, Takimoto™ is currently in development, so you would have to build your own.\
