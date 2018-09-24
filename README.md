@@ -69,6 +69,6 @@ If you get an error stating `'npm' is not recognized as internal or external com
 All of the configurations necessary for compiling should be there, so you don't have to worry about the configs. Just type the following into cmd: `npm run-script build`\
 If that doesn't work, try `tsc`
 
-You can now run the bot by typing `node .` or double click on `run.bat`
+You can now run the bot by typing `node .`
 
 **CONGRATS! YOU NOW HAVE YOUR OWN Takimoto™!!!**
