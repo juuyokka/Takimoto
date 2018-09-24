@@ -16,7 +16,7 @@ Oh, not much, only the [BEST GIRL IN THE UNIVERSE](http://lmgtfy.com/?q=hifumi+t
 
 ## What does it do?
 
-Nothing as of right now (if you don't count being best girl), but I'm working on adding funtionality to it whenever I have time to!\
+Nothing as of right now (if you don't count being best girl), but I'm working on adding funtionality to it whenever I have time to!
 >"I'll do my darnedest again today!" - Aoba Suzukaze
 
 ## How do I build my own Takimoto™?
