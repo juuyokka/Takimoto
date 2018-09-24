@@ -1,0 +1,27 @@
+{
+  "name": "takimoto",
+  "version": "1.0.0",
+  "description": "Takimoto",
+  "main": "./dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "nodemon"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juuyokka/Takimoto.git"
+  },
+  "author": "juuyokka",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/juuyokka/Takimoto/issues"
+  },
+  "homepage": "https://github.com/juuyokka/Takimoto#readme",
+  "dependencies": {
+    "@types/dotenv": "^4.0.3",
+    "discord.js": "^11.4.2",
+    "dotenv": "^6.0.0",
+    "nodemon": "^1.18.4",
+    "typescript": "^3.0.3"
+  }
+}
