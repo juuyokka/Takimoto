@@ -54,26 +54,21 @@ Right click on your username, and click "Copy ID"
 
 https://support.discordapp.com/hc/en-us/articles/206346498-Where-can-I-find-my-User-Server-Message-ID-
 
-Open `config.json` in the repository and replace `399345739941150720` in `const owner: string = '399345739941150720';` with your ID. This is my ID, so if you don't replace it with your ID, your bot will assume me as its owner!
+Open `index.ts` in the repository (should be in src) and replace `399345739941150720` in `const owner: string = '399345739941150720';` with your ID. This is my ID, so if you don't replace it with your ID, your bot will assume me as its owner!
 
 **5. Install dependencies**
 
 - Open your command terminal (Windows key + R, type "cmd" and hit enter)
 - Move the working directory to the repository you just unziped (use "cd")
-- Type the following commands
-  - `npm install discord.js --save`
-  - `npm install dotenv --save`
-  - `npm install typescript -g`
-  - `npm install @types/dotenv --save-dev`
-  - **Optional**: `npm install nodemon --save-dev`
+- Type the following command
+  - `npm install`
 
 If you get an error stating `'npm' is not recognized as internal or external command, operable program or batch file.` try closing cmd and opening it again. If that doesn't fix it, try rebooting your computer.
 
 **6. Compile the code**
 
-All of the configurations necessary for compiling should be there, so you don't have to worry about the configs. Just type the following into cmd: `npm run-script build`\
-If that doesn't work, try `tsc`
+All of the configurations necessary for compiling should be there, so you don't have to worry about the configs. Just type the following into cmd: `npm run-script build`
 
-You can now run the bot by typing `node .`
+You can now run the bot by typing `node .` or `npm start`
 
 **CONGRATS! YOU NOW HAVE YOUR OWN Takimoto™!!!**
