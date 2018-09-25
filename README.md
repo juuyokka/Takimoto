@@ -54,7 +54,7 @@ Right click on your username, and click "Copy ID"
 
 https://support.discordapp.com/hc/en-us/articles/206346498-Where-can-I-find-my-User-Server-Message-ID-
 
-Open `config.json` in the repository and replace `399345739941150720` in `ts  const owner: string = '399345739941150720';` with your ID. This is my ID, so if you don't replace it with your ID, your bot will assume me as its owner!
+Open `config.json` in the repository and replace `399345739941150720` in `const owner: string = '399345739941150720';` with your ID. This is my ID, so if you don't replace it with your ID, your bot will assume me as its owner!
 
 **5. Install dependencies**
 
