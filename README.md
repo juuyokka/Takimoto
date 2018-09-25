@@ -1,4 +1,4 @@
-# Takimoto
+# Takimoto™
 
 >"Sojiro, do you like it when I smile?" - Hifumi Takimoto, Best Girl
 
@@ -6,18 +6,16 @@
 
 Takimoto is a Discord bot aimed towards server management, moderation, and fun!
 
-## Who is Hifumi Takimoto?
-
-Oh, not much, only the [BEST GIRL IN THE UNIVERSE](http://lmgtfy.com/?q=hifumi+takimoto+new+game)
-
-## What does Hifumi look like?
-
-![Picture of best girl](https://hifumi.io/assets/hifumi_pc.png)
-
 ## What does it do?
 
-Nothing as of right now (if you don't count being best girl), but I'm working on adding funtionality to it whenever I have time to!
+Nothing useful as of right now (if you don't count being best girl), but I'm working on adding functionality to it whenever I have time to!
 >"I'll do my darnedest again today!" - Aoba Suzukaze
+
+## What are you currently working on?
+
+- [x] Add command functionality 
+- [ ] Add fun commands
+- [ ] Add moderation commands
 
 ## Wow, Takimoto™ sure looks awesome! How can I add it to my server?
 
@@ -48,7 +46,18 @@ Create a file called `.env` and put the following in it:
 BOT_TOKEN=your token here
 ```
 
-**4. Install dependencies**
+**4. Add owner id to project**
+
+Get your user id from discord. Make sure you have developer mode enabled (Settings/Appearance/Advanced/Developer Mode)
+
+Right click on your username, and click "Copy ID"
+
+https://support.discordapp.com/hc/en-us/articles/206346498-Where-can-I-find-my-User-Server-Message-ID-
+
+Open `config.json` in the repository and replace `399345739941150720` in `ts  const owner: string = '399345739941150720';` with your ID. This is my ID, so if you don't replace it with your ID, your bot will assume me as its owner!
+
+**5. Install dependencies**
+
 - Open your command terminal (Windows key + R, type "cmd" and hit enter)
 - Move the working directory to the repository you just unziped (use "cd")
 - Type the following commands
@@ -60,7 +69,7 @@ BOT_TOKEN=your token here
 
 If you get an error stating `'npm' is not recognized as internal or external command, operable program or batch file.` try closing cmd and opening it again. If that doesn't fix it, try rebooting your computer.
 
-**5. Compile the code**
+**6. Compile the code**
 
 All of the configurations necessary for compiling should be there, so you don't have to worry about the configs. Just type the following into cmd: `npm run-script build`\
 If that doesn't work, try `tsc`

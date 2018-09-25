@@ -19,6 +19,7 @@
   "homepage": "https://github.com/juuyokka/Takimoto#readme",
   "dependencies": {
     "discord.js": "^11.4.2",
+    "discord.js-commando": "^0.10.0",
     "dotenv": "^6.0.0"
   },
   "devDependencies": {
